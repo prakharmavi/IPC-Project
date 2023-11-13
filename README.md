@@ -27,6 +27,7 @@ Duration    : 20 minutes
 Content     : Python installation, PyAutoGui library dependency, sample usage (Old IPC144: A1MS2)
 
 ## Step:2
+## Step:2
 
 Install Python on your system
 Follow the documentation for installing Python on your specific operating system:
