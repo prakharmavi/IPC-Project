@@ -31,15 +31,18 @@ piece of work is entirely of my own creation.
 // - The comment should also be copied to the core.c function definition
 //
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+int calStringLen(char *);
+int inputInt();
+int inputIntPositive();
+int inputIntRange(int, int);
+char inputCharOption(char[]);
+// Function to obtain user input for a C string within a specified range
+void inputCString(char *input, int minLength, int maxLength);
 
 
-//////////////////////////////////////
-// USER INTERFACE FUNCTIONS
-//////////////////////////////////////
-
+void displayFormattedPhone(const char*);
 // Clear the standard input buffer
 void clearInputBuffer(void);
-
 // Wait for user to input the "enter" key to continue
 void suspend(void);
 
