@@ -11,13 +11,12 @@ shared with any other student or 3rd party content provider. This submitted
 piece of work is entirely of my own creation.
 /////////////////////////////////////////////////////////////////////////*/
 
-// SAFE-GUARD: 
+// SAFE-GUARD:
 // It is good practice to apply safe-guards to header files
 // Safe-guard's ensures only 1 copy of the header file is used in the project build
 // The macro name should be mirroring the file name with _ for spaces, dots, etc.
 #ifndef CLINIC_H
 #define CLINIC_H
-
 
 //////////////////////////////////////
 // Module macro's (usable by any file that includes this header)
@@ -33,28 +32,35 @@ piece of work is entirely of my own creation.
 #define PHONE_DESC_LEN 4
 #define PHONE_LEN 10
 
-
 //////////////////////////////////////
 // Structures
 //////////////////////////////////////
 
 // Data type: Phone
 // ToDo:
+struct Phone
+{
+    char description[PHONE_DESC_LEN+1];
+    char number[PHONE_LEN+1];
+};
 
-
-// Data type: Patient 
+// Data type: Patient
 // ToDo:
+struct Patient
+{
+    int patientNumber;
+    char name[NAME_LEN];
 
+    struct Phone phone;
+};
 
 // ClinicData type: Provided to student
 // !!! DO NOT MODIFY THIS DATA TYPE !!!
 struct ClinicData
 {
-    struct Patient* patients;
+    struct Patient *patients;
     int maxPatient;
 };
-
-
 
 //////////////////////////////////////
 // DISPLAY FUNCTIONS
@@ -64,22 +70,20 @@ struct ClinicData
 void displayPatientTableHeader(void);
 
 // Displays a single patient record in FMT_FORM | FMT_TABLE format
-void displayPatientData(const struct Patient* patient, int fmt);
-
+void displayPatientData(const struct Patient *patient, int fmt);
 
 //////////////////////////////////////
 // MENU & ITEM SELECTION FUNCTIONS
 //////////////////////////////////////
 
 // Menu: Main
-void menuMain(struct ClinicData* data);
+void menuMain(struct ClinicData *data);
 
 // Menu: Patient Management
 void menuPatient(struct Patient patient[], int max);
 
 // Menu: Patient edit
-void menuPatientEdit(struct Patient* patient);
-
+void menuPatientEdit(struct Patient *patient);
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 // !!! ALL the below functions need defining       !!!
@@ -102,7 +106,6 @@ void editPatient(struct Patient patient[], int max);
 // Remove a patient record from the patient array
 void removePatient(struct Patient patient[], int max);
 
-
 //////////////////////////////////////
 // UTILITY FUNCTIONS
 //////////////////////////////////////
@@ -120,16 +123,15 @@ int nextPatientNumber(const struct Patient patient[], int max);
 int findPatientIndexByPatientNum(int patientNumber,
                                  const struct Patient patient[], int max);
 
-
 //////////////////////////////////////
 // USER INPUT FUNCTIONS
 //////////////////////////////////////
 
 // Get user input for a new patient record
-void inputPatient(struct Patient* patient);
+void inputPatient(struct Patient *patient);
 
 // Get user input for phone contact information
-void inputPhoneData(struct Phone* phone);
+void inputPhoneData(struct Phone *phone);
 
 
 #endif // !CLINIC_H

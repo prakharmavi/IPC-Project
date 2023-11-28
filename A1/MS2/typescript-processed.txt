@@ -1,0 +1,23 @@
+Script started on Tue Nov 28 11:00:45 2023
+prakharmavi@prakhars-Air MS2 % gcc -Wall a1ms2.c core.c clinic.c -o ms2 clear				   gcc -Wall a1ms2.c core.c clinic.c -o ms2 clear			       gcc -Wall a1ms2.c core.c clinic.c -o ms2
+ld: Undefined symbols:
+  _addPatient, referenced from:
+      _menuPatient in clinic-9a8e50.o
+  _displayAllPatients, referenced from:
+      _menuPatient in clinic-9a8e50.o
+  _editPatient, referenced from:
+      _menuPatient in clinic-9a8e50.o
+  _inputPhoneData, referenced from:
+      _menuPatientEdit in clinic-9a8e50.o
+  _removePatient, referenced from:
+      _menuPatient in clinic-9a8e50.o
+  _searchPatientData, referenced from:
+      _menuPatient in clinic-9a8e50.o
+  _suspend, referenced from:
+      _menuPatient in clinic-9a8e50.o
+      _menuPatient in clinic-9a8e50.o
+      _menuPatient in clinic-9a8e50.o
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+prakharmavi@prakhars-Air MS2 % exit
+
+Script done on Tue Nov 28 11:00:53 2023

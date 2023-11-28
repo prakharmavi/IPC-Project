@@ -1,0 +1,23 @@
+Script started on Tue Nov 28 11:00:45 2023
+[1m[7m%[27m[1m[0m                                                                                              [0m[27m[24m[Jprakharmavi@prakhars-Air MS2 % [K[?2004hgcc -Wall a1ms2.c core.c clinic.c -o ms2 [41Dclear                                   [35Dgcc -Wall a1ms2.c core.c clinic.c -o ms2 [41Dclear                                   [35Dgcc -Wall a1ms2.c core.c clinic.c -o ms2 [?2004l
+ld: Undefined symbols:
+  _addPatient, referenced from:
+      _menuPatient in clinic-9a8e50.o
+  _displayAllPatients, referenced from:
+      _menuPatient in clinic-9a8e50.o
+  _editPatient, referenced from:
+      _menuPatient in clinic-9a8e50.o
+  _inputPhoneData, referenced from:
+      _menuPatientEdit in clinic-9a8e50.o
+  _removePatient, referenced from:
+      _menuPatient in clinic-9a8e50.o
+  _searchPatientData, referenced from:
+      _menuPatient in clinic-9a8e50.o
+  _suspend, referenced from:
+      _menuPatient in clinic-9a8e50.o
+      _menuPatient in clinic-9a8e50.o
+      _menuPatient in clinic-9a8e50.o
+clang: [0;1;31merror: [0m[1mlinker command failed with exit code 1 (use -v to see invocation)[0m
+[1m[7m%[27m[1m[0m                                                                                              [0m[27m[24m[Jprakharmavi@prakhars-Air MS2 % [K[?2004heexit[?2004l
+
+Script done on Tue Nov 28 11:00:53 2023

@@ -14,18 +14,20 @@ piece of work is entirely of my own creation.
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
-
+#include <ctype.h>
 //
 // Copy your work done from Milestone #1 (core.c) into this file
 // - Organize your functions in the same order as they are listed in the core.h file
 // - Also copy the commented "sections" to help with finding functions quickly!
 //
 
-int calStringLen(char *str) {
+int calStringLen(char *str)
+{
     int len = 0;
 
     // Iterate through the characters until the null-terminating character is encountered
-    while (str[len] != '\0') {
+    while (str[len] != '\0')
+    {
         len++;
     }
 
@@ -40,7 +42,8 @@ int inputInt()
         if (scanf("%d%c", &num, &entr) != 2 || entr != '\n')
         {
             printf("Error! Input a whole number: ");
-            while (getchar() != '\n');
+            while (getchar() != '\n')
+                ;
         }
         else
         {
@@ -92,7 +95,6 @@ int inputIntRange(int lowerBound, int upperBound)
         else
         {
             flg = 0;
-            
         }
     } while (flg);
     return num;
@@ -203,5 +205,20 @@ void displayFormattedPhone(char *phoneNumber)
             }
         }
     }
-    
+}
+// Clear the standard input buffer
+void clearInputBuffer(void)
+{
+    // Discard all remaining char's from the standard input buffer:
+    while (getchar() != '\n')
+    {
+        ; // do nothing!
+    }
+}
+
+void suspend(void)
+{
+    printf("<ENTER> to continue...");
+    clearInputBuffer();
+    putchar('\n');
 }
