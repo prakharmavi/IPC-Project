@@ -1,0 +1,498 @@
+Script started on Tue Nov 28 15:24:57 2023
+prakharmavi@prakhars-Air MS2 % gcc -Wall a1ms2.c core.c clinic.c -o ms2 && ./ms2gcc -Wall a1ms2.c core.c clinic.c -o ms2 && ./ms2
+Veterinary Clinic System
+=========================
+1) PATIENT     Management
+2) APPOINTMENT Management
+-------------------------
+0) Exit System
+-------------------------
+Selection: 2
+
+<<< Feature not yet available >>>
+
+Veterinary Clinic System
+=========================
+1) PATIENT     Management
+2) APPOINTMENT Management
+-------------------------
+0) Exit System
+-------------------------
+Selection: 1
+
+Patient Management
+=========================
+1) VIEW   Patient Data
+2) SEARCH Patients
+3) ADD	  Patient
+4) EDIT   Patient
+5) REMOVE Patient
+-------------------------
+0) Previous menu
+-------------------------
+Selection: 1
+
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+<ENTER> to continue...
+
+Patient Management
+=========================
+1) VIEW   Patient Data
+2) SEARCH Patients
+3) ADD	  Patient
+4) EDIT   Patient
+5) REMOVE Patient
+-------------------------
+0) Previous menu
+-------------------------
+Selection: 2
+
+Patient Management
+=========================
+1) VIEW   Patient Data
+2) SEARCH Patients
+3) ADD	  Patient
+4) EDIT   Patient
+5) REMOVE Patient
+-------------------------
+0) Previous menu
+-------------------------
+Selection: 1
+
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+<ENTER> to continue...1040
+
+Patient Management
+=========================
+1) VIEW   Patient Data
+2) SEARCH Patients
+3) ADD	  Patient
+4) EDIT   Patient
+5) REMOVE Patient
+-------------------------
+0) Previous menu
+-------------------------
+Selection:
+2
+
+Patient Management
+=========================
+1) VIEW   Patient Data
+2) SEARCH Patients
+3) ADD	  Patient
+4) EDIT   Patient
+5) REMOVE Patient
+-------------------------
+0) Previous menu
+-------------------------
+Selection: 3048005191
+ERROR! Value must be between 0 and 5 inclusive:
+2
+
+Patient Management
+=========================
+1) VIEW   Patient Data
+2) SEARCH Patients
+3) ADD	  Patient
+4) EDIT   Patient
+5) REMOVE Patient
+-------------------------
+0) Previous menu
+-------------------------
+Selection: 7934346809
+ERROR! Value must be between 0 and 5 inclusive:
+1
+
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+<ENTER> to continue...9
+
+Patient Management
+=========================
+1) VIEW   Patient Data
+2) SEARCH Patients
+3) ADD	  Patient
+4) EDIT   Patient
+5) REMOVE Patient
+-------------------------
+0) Previous menu
+-------------------------
+Selection:
+2
+
+Patient Management
+=========================
+1) VIEW   Patient Data
+2) SEARCH Patients
+3) ADD	  Patient
+4) EDIT   Patient
+5) REMOVE Patient
+-------------------------
+0) Previous menu
+-------------------------
+Selection: 1234567890
+ERROR! Value must be between 0 and 5 inclusive:
+0
+
+Veterinary Clinic System
+=========================
+1) PATIENT     Management
+2) APPOINTMENT Management
+-------------------------
+0) Exit System
+-------------------------
+Selection: 3
+ERROR! Value must be between 0 and 2 inclusive: Horsey Henry
+Error! Input a whole number: 4
+ERROR! Value must be between 0 and 2 inclusive:
+3
+ERROR! Value must be between 0 and 2 inclusive: Turkey Time
+Error! Input a whole number: 2
+
+<<< Feature not yet available >>>
+
+Veterinary Clinic System
+=========================
+1) PATIENT     Management
+2) APPOINTMENT Management
+-------------------------
+0) Exit System
+-------------------------
+Selection: 9994133132
+ERROR! Value must be between 0 and 2 inclusive:
+3
+ERROR! Value must be between 0 and 2 inclusive:
+4
+ERROR! Value must be between 0 and 2 inclusive: 1048
+ERROR! Value must be between 0 and 2 inclusive: 1
+
+Patient Management
+=========================
+1) VIEW   Patient Data
+2) SEARCH Patients
+3) ADD	  Patient
+4) EDIT   Patient
+5) REMOVE Patient
+-------------------------
+0) Previous menu
+-------------------------
+Selection: Guitar Codi
+Error! Input a whole number: 2
+
+Patient Management
+=========================
+1) VIEW   Patient Data
+2) SEARCH Patients
+3) ADD	  Patient
+4) EDIT   Patient
+5) REMOVE Patient
+-------------------------
+0) Previous menu
+-------------------------
+Selection: 3
+
+<ENTER> to continue...7774115123
+
+Patient Management
+=========================
+1) VIEW   Patient Data
+2) SEARCH Patients
+3) ADD	  Patient
+4) EDIT   Patient
+5) REMOVE Patient
+-------------------------
+0) Previous menu
+-------------------------
+Selection: 0
+
+Veterinary Clinic System
+=========================
+1) PATIENT     Management
+2) APPOINTMENT Management
+-------------------------
+0) Exit System
+-------------------------
+Selection: 1
+
+Patient Management
+=========================
+1) VIEW   Patient Data
+2) SEARCH Patients
+3) ADD	  Patient
+4) EDIT   Patient
+5) REMOVE Patient
+-------------------------
+0) Previous menu
+-------------------------
+Selection:
+5
+
+<ENTER> to continue...1111
+
+Patient Management
+=========================
+1) VIEW   Patient Data
+2) SEARCH Patients
+3) ADD	  Patient
+4) EDIT   Patient
+5) REMOVE Patient
+-------------------------
+0) Previous menu
+-------------------------
+Selection:
+5
+
+<ENTER> to continue...1040
+
+Patient Management
+=========================
+1) VIEW   Patient Data
+2) SEARCH Patients
+3) ADD	  Patient
+4) EDIT   Patient
+5) REMOVE Patient
+-------------------------
+0) Previous menu
+-------------------------
+Selection: n
+Error! Input a whole number:
+5
+
+<ENTER> to continue...1056
+
+Patient Management
+=========================
+1) VIEW   Patient Data
+2) SEARCH Patients
+3) ADD	  Patient
+4) EDIT   Patient
+5) REMOVE Patient
+-------------------------
+0) Previous menu
+-------------------------
+Selection: y
+Error! Input a whole number:
+1
+
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+Pat.# Name	      Phone#
+----- --------------- --------------------
+01024 Shaggy Yanson   (304)800-5191 (CELL)
+01032 Puglsey Yanson  (304)800-5191 (CELL)
+01040 Beans Maulin    (364)915-5831 (HOME)
+01048 Banjo Codi      (___)___-____ (TBA)
+01056 Rover Davidov   (793)434-6809 (WORK)
+<ENTER> to continue...
+
+Patient Management
+=========================
+1) VIEW   Patient Data
+2) SEARCH Patients
+3) ADD	  Patient
+4) EDIT   Patient
+5) REMOVE Patient
+-------------------------
+0) Previous menu
+-------------------------
+Selection: 0
+
+Veterinary Clinic System
+=========================
+1) PATIENT     Management
+2) APPOINTMENT Management
+-------------------------
+0) Exit System
+-------------------------
+Selection: 0
+
+Are you sure you want to exit? (y|n): y
+
+Exiting system... Goodbye.
+
+prakharmavi@prakhars-Air MS2 % exit
+
+Script done on Tue Nov 28 15:31:49 2023

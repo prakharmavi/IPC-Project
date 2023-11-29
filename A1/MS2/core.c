@@ -15,6 +15,7 @@ piece of work is entirely of my own creation.
 
 #include <stdio.h>
 #include <ctype.h>
+#include <string.h>
 //
 // Copy your work done from Milestone #1 (core.c) into this file
 // - Organize your functions in the same order as they are listed in the core.h file
@@ -218,7 +219,7 @@ void clearInputBuffer(void)
 
 void suspend(void)
 {
-    printf("<ENTER> to continue...");
+    printf("\n<ENTER> to continue...");
     clearInputBuffer();
     putchar('\n');
 }

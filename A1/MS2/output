@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+gcc -Wall a1ms2.c core.c clinic.c -o ms2 && ./ms2
+

@@ -35,13 +35,13 @@ piece of work is entirely of my own creation.
 //////////////////////////////////////
 // Structures
 //////////////////////////////////////
-
+int i;
 // Data type: Phone
 // ToDo:
 struct Phone
 {
-    char description[PHONE_DESC_LEN+1];
-    char number[PHONE_LEN+1];
+    char description[PHONE_DESC_LEN + 1];
+    char number[PHONE_LEN + 1];
 };
 
 // Data type: Patient
@@ -132,6 +132,5 @@ void inputPatient(struct Patient *patient);
 
 // Get user input for phone contact information
 void inputPhoneData(struct Phone *phone);
-
 
 #endif // !CLINIC_H
